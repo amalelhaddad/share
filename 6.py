@@ -1,0 +1,12 @@
+crepe=8
+hour=12.5
+crepe_day=crepe*hour
+crepe_month=crepe_day*30
+crepe_price_month=crepe_month*6.5
+crepe_4year=crepe_day*1460
+machine=crepe_4year/500
+crepe_price=crepe_4year*6.5
+net_profit=crepe_price-(machine*125)
+print(crepe_price_month)
+print(machine)
+print(net_profit)
